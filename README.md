@@ -1,2 +1,0 @@
-# skinish-cosmetics-pricelist
- 

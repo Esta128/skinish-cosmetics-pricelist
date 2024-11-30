@@ -40,46 +40,42 @@ section{
   padding: 8px 0;
 }
 
-.background.facials{
-  background-image: url(./images/lady-doing-her-facials-skinish-cosmetic-and-spa-facial-service-in-tema-ghana.webp);
+.background{
   object-fit: cover;
   height: auto;
-  background-position: center top;
+  background-position: center top
+}
+
+.background.facials{
+  background-image: url(./images/lady-doing-her-facials-skinish-cosmetic-and-spa-facial-service-in-tema-ghana.webp);
 }
 
 .background.massage{
   background-image: url(./images/massaging-her-back-skinish-cosmetic-and-spa-massage-service-in-tema-ghana.webp);
-  object-fit: cover;
-  height: auto;
-  background-position: center top;
 }
 
 .background.sbe{
   background-image: url(./images/lady-enjoy-steaming-her-body-in-a-sauna-skinish-cosmetic-and-spa-steaming-&-body-exfoliating-service-in-tema-ghana.webp);
-  object-fit: cover;
-  height: auto;
-  background-position: center top;
 }
 
 .background.aesthetics{
   background-image: url(./images/skinish-cosmetic-and-spa-aesthetics-procedures-in-tema-ghana.webp);
-  object-fit: cover;
-  height: auto;
-  background-position: center top;
+}
+
+.background.iv-drip{
+  background-image: url(./images/skinish-cosmetic-and-spa-iv-theraphy-in-tema-ghana.webp);
+}
+
+.background.waxing{
+  background-image: url(./images/skinish-cosmetic-and-spa-waxing-service-in-tema-ghana.webp);
 }
 
 .background.abse{
   background-image: url(./images/skinish-cosmetic-and-spa-body-sculpting-service-in-tema-ghana.webp);
-  object-fit: cover;
-  height: auto;
-  background-position: center top;
 }
 
 .background.detox{
   background-image: url(./images/skinish-cosmetic-and-spa-full-body-detox-service-in-tema-ghana.webp);
-  object-fit: cover;
-  height: auto;
-  background-position: center top;
 }
 
 .background.other{
@@ -103,7 +99,3 @@ p.service{
   text-transform: capitalize;
 }
 
-.footer{
-  height: 40px
-  overflow: hidden;
-}

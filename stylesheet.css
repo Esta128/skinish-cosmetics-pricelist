@@ -1,9 +1,10 @@
 body{
     position: relative;
-    margin: auto;
+    margin: 0 auto;
     font-family: "Josefin Sans", serif;
     font-weight: 400;
     color: rgb(24, 24, 24);
+    
 }
 
 h1{
@@ -20,7 +21,9 @@ h2{
   font-weight: 500;
 }
 
-
+section{
+  border-top: solid white 5px;
+}
 
 #banner{
     background-color: #cf7a68;
@@ -40,31 +43,51 @@ h2{
 .background.facials{
   background-image: url(./images/lady-doing-her-facials-skinish-cosmetic-and-spa-facial-service-in-tema-ghana.webp);
   object-fit: cover;
-  max-width: 100%;
   height: auto;
+  background-position: center top;
 }
 
 .background.massage{
   background-image: url(./images/massaging-her-back-skinish-cosmetic-and-spa-massage-service-in-tema-ghana.webp);
   object-fit: cover;
-  max-width: 100%;
   height: auto;
+  background-position: center top;
 }
 
 .background.sbe{
   background-image: url(./images/lady-enjoy-steaming-her-body-in-a-sauna-skinish-cosmetic-and-spa-steaming-&-body-exfoliating-service-in-tema-ghana.webp);
   object-fit: cover;
-  max-width: 100%;
   height: auto;
+  background-position: center top;
 }
 
 .background.aesthetics{
   background-image: url(./images/skinish-cosmetic-and-spa-aesthetics-procedures-in-tema-ghana.webp);
   object-fit: cover;
-  max-width: 100%;
   height: auto;
+  background-position: center top;
 }
 
+.background.abse{
+  background-image: url(./images/skinish-cosmetic-and-spa-body-sculpting-service-in-tema-ghana.webp);
+  object-fit: cover;
+  height: auto;
+  background-position: center top;
+}
+
+.background.detox{
+  background-image: url(./images/skinish-cosmetic-and-spa-full-body-detox-service-in-tema-ghana.webp);
+  object-fit: cover;
+  height: auto;
+  background-position: center top;
+}
+
+.background.other{
+  background-image: url(./images/skinish-cosmetic-and-spa-prp-stretch-mark-removal-service-in-tema-ghana.webp);
+  object-fit: cover;
+  height: auto;
+  background-position: center top;
+}
 
 /*.overlay{
   border-image: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)) fill 1;
@@ -80,96 +103,7 @@ p.service{
   text-transform: capitalize;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.fab-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  user-select: none;
-  position: absolute;
-  bottom: -150px;
-  right: 30px;
-}
-.fab-container:hover {
-  height: 100%;
-}
-.fab-container:hover .sub-button:nth-child(2) {
-  transform: translateY(-80px);
-}
-.fab-container:hover .sub-button:nth-child(3) {
-  transform: translateY(-140px);
-}
-.fab-container:hover .sub-button:nth-child(4) {
-  transform: translateY(-200px);
-}
-.fab-container:hover .sub-button:nth-child(5) {
-  transform: translateY(-260px);
-}
-.fab-container:hover .sub-button:nth-child(6) {
-  transform: translateY(-320px);
-}
-.fab-container .fab {
-  position: relative;
-  height: 70px;
-  width: 70px;
-  background-color: #4ba2ff;
-  border-radius: 50%;
-  z-index: 2;
-}
-.fab-container .fab::before {
-  content: " ";
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  height: 35px;
-  width: 35px;
-  background-color: inherit;
-  border-radius: 0 0 10px 0;
-  z-index: -1;
-}
-.fab-container .fab .fab-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-  border-radius: 50%;
-}
-.fab-container .fab .fab-content .material-icons {
-  color: white;
-  font-size: 48px;
-}
-.fab-container .sub-button {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  bottom: 10px;
-  right: 10px;
-  height: 50px;
-  width: 50px;
-  background-color: #4ba2ff;
-  border-radius: 50%;
-  transition: all 0.3s ease;
-}
-.fab-container .sub-button:hover {
-  cursor: pointer;
-}
-.fab-container .sub-button .material-icons {
-  color: white;
-  padding-top: 6px;
+.footer{
+  height: 40px
+  overflow: hidden;
 }

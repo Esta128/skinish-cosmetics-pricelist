@@ -21,9 +21,6 @@ h2{
   font-weight: 500;
 }
 
-section{
-  border-top: solid white 5px;
-}
 
 #banner{
     background-color: #cf7a68;
@@ -85,9 +82,9 @@ section{
   background-position: center top;
 }
 
-/*.overlay{
+.overlay{
   border-image: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)) fill 1;
-}*/
+}
 
 
 .row.main{
@@ -95,7 +92,9 @@ section{
   background-color: rgba(255, 255, 255, 0.7);
 }
 
+
 p.service{
   text-transform: capitalize;
 }
+
 

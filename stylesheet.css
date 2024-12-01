@@ -100,16 +100,12 @@ p.service{
 
 div.contact{
   position: fixed;
-  left: 90%;
+  left: 75%;
   top: 85%;
 }
 
 img.contact{
-  max-width: 45px;
+  max-width: 55px;
   box-shadow: 5px 5px 20px rgba(253, 253, 253, 0.2);
   border-radius: 50%;
-}
-
-a{
-  cursor: pointer;
 }
